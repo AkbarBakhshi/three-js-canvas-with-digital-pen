@@ -1,0 +1,13 @@
+extends ../index.pug
+
+block variables
+    - var template = 'threejs'
+
+block content
+    .threejs 
+        .lnc
+            span visit 
+            a.siteLink(href='https://www.latenightcoders.club/community' target='_blank') latenightcoders.club 
+            span and join the community
+        button.clearPage Clear
+    .threejs__canvas__container

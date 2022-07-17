@@ -1,0 +1,36 @@
+.threejs {
+    padding: 20px;
+    font-weight: 900;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .lnc {
+        a.siteLink {
+            font-size: 40px;
+            color: #4cc9f0;
+        }
+    }
+
+    .clearPage {
+        margin-top: 10px;
+        max-width: 200px;
+        padding: 10px 20px;
+        border-radius: 5px;
+        background-color: #4cc9f0;
+        color: white;
+    }
+
+}
+
+
+.threejs__canvas__container {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
